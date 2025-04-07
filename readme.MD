@@ -1,8 +1,6 @@
-# HM ETL
+# HM ETL ![HM ETL](https://img.shields.io/badge/version-1.0.0-blue.svg)
 
-![Python](https://img.shields.io/badge/python-3.11-blue.svg)
-![MySQL](https://img.shields.io/badge/MySQL-8.0-blue.svg)
-![License](https://img.shields.io/badge/license-MIT-green.svg)
+## Descripción 📜
 
 Este proyecto implementa un proceso **ETL** (Extracción, Transformación y Carga) que extrae datos de la **PokeAPI**, los transforma en un formato adecuado y luego los carga en una base de datos **MySQL**. El objetivo es gestionar los datos de los Pokémon de forma eficiente utilizando Python, SQLAlchemy y pymysql.
 
@@ -18,7 +16,6 @@ Este proyecto necesita algunas dependencias para funcionar correctamente:
   - SQLAlchemy 🔗
   - pymysql 🐬
   - logging 📜 (para manejo de logs)
-
 
 
 ## Instalación 🛠️
