@@ -1,0 +1,6 @@
+[2025-04-07 12:26:12,484] [INFO] - 🚀 Iniciando proceso ETL de PokeAPI...
+[2025-04-07 12:26:12,485] [INFO] - Solicitando datos desde: https://pokeapi.co/api/v2/pokemon?limit=50
+[2025-04-07 12:26:19,788] [INFO] - 50 Pokémon extraídos exitosamente.
+[2025-04-07 12:26:19,790] [INFO] - Datos transformados correctamente.
+[2025-04-07 12:26:19,848] [INFO] - ✅ Datos cargados en MySQL correctamente.
+[2025-04-07 12:26:19,848] [INFO] - ✅ Proceso ETL finalizado.
