@@ -1,4 +1,4 @@
-# ETL PokeAPI
+# HM ETL
 
 ![Python](https://img.shields.io/badge/python-3.11-blue.svg)
 ![MySQL](https://img.shields.io/badge/MySQL-8.0-blue.svg)
@@ -19,9 +19,7 @@ Este proyecto necesita algunas dependencias para funcionar correctamente:
   - pymysql 🐬
   - logging 📜 (para manejo de logs)
 
-### Docker
-docker build -t hm-etl .
-docker run --rm hm-etl
+
 
 ## Instalación 🛠️
 
@@ -31,6 +29,8 @@ docker run --rm hm-etl
    git clone https://github.com/ReynierGo/hm-etl.git
    cd hm-etl
 
-2. En caso ejecutar docker
-    docker build -t hm-etl .
-    docker run --rm hm-etl
+2. Para ejecutar el contenedor docker
+
+   ```bash
+   docker build -t hm-etl .
+   docker run --rm hm-etl
