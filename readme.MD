@@ -6,7 +6,7 @@
 
 Este proyecto implementa un proceso **ETL** (Extracción, Transformación y Carga) que extrae datos de la **PokeAPI**, los transforma en un formato adecuado y luego los carga en una base de datos **MySQL**. El objetivo es gestionar los datos de los Pokémon de forma eficiente utilizando Python, SQLAlchemy y pymysql.
 
-## Requisitos
+## Requisitos 📋
 
 Este proyecto necesita algunas dependencias para funcionar correctamente:
 
@@ -19,10 +19,18 @@ Este proyecto necesita algunas dependencias para funcionar correctamente:
   - pymysql 🐬
   - logging 📜 (para manejo de logs)
 
+### Docker
+docker build -t hm-etl .
+docker run --rm hm-etl
+
 ## Instalación 🛠️
 
 1. Clona el repositorio:
 
    ```bash
-   git clone https://github.com/reyniergo/hm-etl.git
+   git clone https://github.com/ReynierGo/hm-etl.git
    cd hm-etl
+
+2. En caso ejecutar docker
+    docker build -t hm-etl .
+    docker run --rm hm-etl
