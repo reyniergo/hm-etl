@@ -6,9 +6,9 @@ if __name__ == "__main__":
     """
 
     mysql_config = {
-        "USER": "root",
-        "PASSWORD": "Raynier1205*",
-        "HOST": "152.53.53.245",
+        "USER": "hm_testing",
+        "PASSWORD": "rv1EknPdH5DYi2g",
+        "HOST": "152.53.88.66",
         "PORT": 3306,
         "DATABASE": "DLX_HM_DB"
     }
